@@ -16,6 +16,6 @@
   },
   "scripts": {
     "dev": "gatsby develop",
-    "build": "gatsby build"
+    "build": "ls -A -1 && gatsby build && echo '--------------------' && ls -A -1"
   }
 }
